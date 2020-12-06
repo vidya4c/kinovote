@@ -27,6 +27,6 @@ for raw_vote in raw_votes:
 
 ballots = [pv.Ballot(ranked_candidates=vote) for vote in votes]
 
-election_result = pv.single_transferable_vote(themes, ballots, 3)
+election_result = pv.single_transferable_vote(themes, ballots, 2)
 
 print(election_result)
