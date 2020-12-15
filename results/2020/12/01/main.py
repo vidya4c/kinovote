@@ -2,7 +2,7 @@ import csv
 import pyrankvote as pv
 import re
 
-with open('results/2020-12/themes.csv') as f:
+with open('themes.csv') as f:
     lines = list(csv.reader(f))
 
 themes = lines[0][1:-1]
