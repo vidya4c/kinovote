@@ -43,5 +43,5 @@ with open('results.csv') as f:
 
 Q1 = [line[1:-3] for line in lines]
 
-ranked_vote(Q1, 3)
+ranked_vote(Q1, 4)
 
