@@ -171,5 +171,8 @@ def ranked_vote(table, places, hare_quota=False):
 with open('Kino Vote 2021-04-22.csv') as f:
     lines = list(csv.reader(f))
 
-Q1 = [line[2:12] for line in lines]
-print(ranked_vote(Q1, 3, True))
+Q1 = [line[12:14] + line[15:21] for line in lines]
+print(ranked_vote(Q1, 3, False))
+
+Q1 = [line[12:19] + line[20:21] for line in lines]
+print(ranked_vote(Q1, 3, False))

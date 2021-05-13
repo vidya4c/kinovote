@@ -1,0 +1,12 @@
+Themes:
+    Boxing/MMA
+    Bugs Alive!
+    Jackass
+    B-movies
+    70s Kino
+    Anime
+    Wagie Wagie Get In Cagie
+    Cavemen
+    Eye Candy
+    Hyperviolent
+
